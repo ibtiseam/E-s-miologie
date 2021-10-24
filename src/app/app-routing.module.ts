@@ -7,10 +7,10 @@ import { ContactComponent } from './contact/contact.component';
 import { DetailComponent } from './detail/detail.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { BoardUserComponent } from './board-user/board-user.component';
-import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
-import { BoardAdminComponent } from './board-admin/board-admin.component';
-import { AddDevisComponent } from './add-devis/add-devis.component';
+import { BoardUserComponent } from './all/add-devis/board-user/board-user.component';
+import { BoardModeratorComponent } from './all/board-moderator/board-moderator.component';
+import { BoardAdminComponent } from './all/board-admin/board-admin.component';
+import { AddDevisComponent } from './all/add-devis/add-devis.component';
 import { ListeComponent } from './liste/liste.component';
 import { SendmailComponent } from './sendmail/sendmail.component';
 

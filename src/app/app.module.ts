@@ -14,11 +14,11 @@ import { RegisterComponent } from './register/register.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { BoardAdminComponent } from './board-admin/board-admin.component';
-import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
-import { BoardUserComponent } from './board-user/board-user.component';
+import { BoardAdminComponent } from './all/board-admin/board-admin.component';
+import { BoardModeratorComponent } from './all/board-moderator/board-moderator.component';
+import { BoardUserComponent } from './all/add-devis/board-user/board-user.component';
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
-import { AddDevisComponent } from './add-devis/add-devis.component';
+import { AddDevisComponent } from './all/add-devis/add-devis.component';
 import { ListeComponent } from './liste/liste.component';
 import { SendmailComponent } from './sendmail/sendmail.component';
 
