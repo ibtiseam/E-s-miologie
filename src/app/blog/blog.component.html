@@ -11,11 +11,11 @@
                 <div class="col-lg-4 col-md-8 col-sm-6 wow fadeInUp" data-wow-delay="0.2s" *ngFor="let chantier of chantiers">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="data:image/png;base64,{{chantier.filePath}}" style="width: 350px;height: 200px;" alt="Image">
+                        <img src="./champignon.jpg" style="width: 350px;height: 200px;" alt="Image">
                     </div>
                     <div class="blog-title" >
-                        <h3>{{chantier.name}}</h3>
-                        <a class="btn" (click)="chantierDetails(chantier.id)">+</a>
+                        <h3>Nom de cas</h3>
+                        <a class="btn" (click)=chantierDetails(chantier.id)>+</a>
                     </div>
                     <div class="blog-meta">
                         <p>By<a href="">Admin</a></p>
@@ -23,8 +23,7 @@
                     </div>
                     <div class="blog-text">
                         <p>
-                            AZ Plastering a participé par la pose de plaques de plâtre pour la construction de chantier {{chantier.name}} 
-                            et qui se localise dans {{chantier.region}}.
+                            
                         </p>
                     </div>
                 </div>
